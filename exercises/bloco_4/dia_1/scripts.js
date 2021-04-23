@@ -3,19 +3,19 @@ let a = 5;
 let b = 8;
 
 let adicao = a + b;
-    console.log(adicao);
+    console.log(adicao)
 
 let subtracao = a - b;
-    console.log(subtracao);
+    console.log(subtracao)
 
 let multiplicacao = a * b;
-    console.log(multiplicacao);
+    console.log(multiplicacao)
     
 let divisao = a / b;
-    console.log(divisao);
+    console.log(divisao)
 
 let modulo = a % b;
-    console.log(modulo);
+    console.log(modulo)
 
 // #2
 let a = 8;
@@ -100,3 +100,23 @@ let nota = 89;
         }
 
         // #8
+        let a = 7;
+        let b = 5;
+        let c = 6;
+
+        if(a % 2 == 0 || b % 2 == 0 || c % 2 == 0){
+            console.log("true")
+        } else{
+            console.log("false")
+        }
+
+       // #9
+        let a = 8;
+        let b = 4;
+        let c = 6;
+
+        if(a % 2 == 1 || b % 2 == 1 || c % 2 == 1){
+            console.log("true")
+        } else{
+            console.log("false")
+        }

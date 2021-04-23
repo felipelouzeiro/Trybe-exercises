@@ -1,16 +1,10 @@
-// #7
-let nota = 89;
+// #9
+        let a = 8;
+        let b = 4;
+        let c = 6;
 
-    if(nota >= 90){
-            console.log("A")
-        } else if(nota >= 80){
-            console.log("B") 
-        } else if(nota >= 70){
-            console.log("C")
-        } else if(nota >= 60){
-            console.log("D")   
-        } else if(nota < 50 && nota > 0){
-            console.log("E")
-        } else if(nota < 0 || nota > 100){
-            console.log("Erro indentificado")
+        if(a % 2 == 1 || b % 2 == 1 || c % 2 == 1){
+            console.log("true")
+        } else{
+            console.log("false")
         }
