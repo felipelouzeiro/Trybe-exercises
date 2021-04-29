@@ -43,3 +43,26 @@ for (let index = 0; index < numbers.length; index += 1) {
 } maiorNumero = numero;
  console.log(maiorNumero);
 
+//#6
+let impar = 0;
+for (let index = 0; index < numbers.length; index += 1) {
+    if (index % 2 == 1){
+            impar += 1;
+    } 
+}
+    if (impar > 0) {
+        console.log(`${impar} numeros ímpares`);
+    } else {
+        console.log(`nenhum valor ímpar encontrado`);
+    }
+
+//#7
+let numero = numbers[0];
+let menorNumero = numero;
+for (let index = 0; index < numbers.length; index += 1) {
+    if (numero > numbers[index]){
+            numero = numbers[index];
+    }
+} menorNumero = numero;
+ console.log(menorNumero);
+
