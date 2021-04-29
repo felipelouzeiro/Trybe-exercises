@@ -66,3 +66,18 @@ for (let index = 0; index < numbers.length; index += 1) {
 } menorNumero = numero;
  console.log(menorNumero);
 
+//#8
+let array = [];
+for (let index = 1; index <= 25; index += 1){
+    array.push(index);
+}
+
+
+console.log(array);
+
+//#9
+let array = [];
+for (let index = 1; index <= 25; index += 1){
+    array.push(index / 2);
+}
+console.log(array);
