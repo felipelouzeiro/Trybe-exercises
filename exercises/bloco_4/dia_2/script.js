@@ -11,3 +11,35 @@ for (let index = 0; index < numbers.length; index += 1){
     soma += numbers[index];
 } console.log(soma);
 
+//#3
+let soma = 0;
+let media = 0;
+for (let index = 0; index < numbers.length; index += 1){
+    soma += numbers[index];
+    media = (soma / numbers.length);
+} 
+console.log(media);
+
+//#4
+let soma = 0;
+let media = 0;
+for (let index = 0; index < numbers.length; index += 1) {
+    soma += numbers[index];
+    media = (soma / numbers.length);
+  
+}  if (media > 20) {
+        console.log(`numero maior que 20: ${media}`);
+    } else {
+        console.log(`numero menor ou igual a 20: ${media}`);
+    }
+
+//#5
+let numero = 0;
+let maiorNumero = numero;
+for (let index = 0; index < numbers.length; index += 1) {
+    if (numero < numbers[index]){
+            numero = numbers[index];
+    }
+} maiorNumero = numero;
+ console.log(maiorNumero);
+
