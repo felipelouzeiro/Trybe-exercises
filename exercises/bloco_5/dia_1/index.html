@@ -39,18 +39,40 @@
       </div>
     </div>
     <script>
-        /*
-        Aqui você vai modificar os elementos já existentes utilizando apenas as funções:
-        - document.getElementById()
-        - document.getElementsByClassName()
-        - document.getElementsByTagName()
- Crie uma função que mude o texto na tag <p> para uma descrição de como você se vê daqui a 2 anos. (Não gaste tempo pensando no texto e sim realizando o exercício)
- Crie uma função que mude a cor do quadrado amarelo para o verde da Trybe (rgb(76,164,109)).
- Crie uma função que mude a cor do quadrado vermelho para branco.
- Crie uma função que corrija o texto da tag <h1>.
- Crie uma função que modifique todo o texto da tag <p> para maiúsculo.
- Crie uma função que exiba o conteúdo de todas as tags <p> no console.
-        */
+      function textoP(element, text){
+        document.getElementsByTagName(element)[1].innerText = text;
+      }
+      textoP("p", "Me vejo feliz e satisfeito");
+
+
+      function contentCor(){
+        let contentYellow = document.getElementsByClassName("main-content")[0];
+        contentYellow.style.background = "rgb(78, 124, 20)"
+      };
+      contentCor();
+
+      function contentCorB(){
+        let contentRed = document.getElementsByClassName("center-content")[0];
+        contentRed.style.background = "rgb(255 255 255)";
+      };
+      contentCorB();      
+
+      function corrigeText(){
+        document.getElementsByClassName("title")[0].innerText = "Exercício 5.1 - JavaScript"
+      }
+      corrigeText();
+
+      function textUp(){
+        let textUp = document.getElementsByTagName("p")[0];
+        textUp.innerText = textUp.innerText.toUpperCase();
+      };
+      textUp();
+
+      let hideTagP = document.getElementsByTagName("p");
+      function hideTag(){
+        console.log(hideTagP);
+      };
+      hideTag();
     </script>
   </body>
 </html>
