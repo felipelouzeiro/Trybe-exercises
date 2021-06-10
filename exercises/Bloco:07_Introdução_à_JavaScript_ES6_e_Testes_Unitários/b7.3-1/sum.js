@@ -12,7 +12,7 @@ const expected = sum(4, '5');
 // implemente seus testes aqui
 // A função sum(a, b) retorna a soma do parâmetro a com o b
 
-// assert.strictEqual(typeof sum, 'function'); // testei se a função existe kk;
+// assert.strictEqual(typeof sum, 'function'); // Testei se a função existe kk;
 
 // assert.strictEqual(expected, 9, '4 + 5 = 9'); // Teste se o retorno de sum(4, 5) é 9;
 
