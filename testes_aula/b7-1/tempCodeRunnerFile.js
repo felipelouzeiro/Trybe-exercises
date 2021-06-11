@@ -1,0 +1,1 @@
+console.log('Primeira linha;\n' + 'Segunda linha;\n' + 'Terceira linha;\n')
