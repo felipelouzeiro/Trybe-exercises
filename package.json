@@ -1,0 +1,26 @@
+{
+  "name": "trybe-exercises",
+  "version": "1.0.0",
+  "description": "Repositório para as atividades realizadas na Trybe!",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felipelouzeiro/Trybe-exercises.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felipelouzeiro/Trybe-exercises/issues"
+  },
+  "homepage": "https://github.com/felipelouzeiro/Trybe-exercises#readme",
+  "devDependencies": {
+    "jest": "^27.0.4"
+  },
+  "dependencies": {
+    "@types/jest": "^26.0.23"
+  }
+}
