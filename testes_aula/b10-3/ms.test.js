@@ -54,7 +54,7 @@ describe('testando funções da ms', () => {
     const funcsubtrair = jest.spyOn(func, 'subtrair');
     funcsubtrair.mockImplementation((a, b) => a + b);
     
-    funcsubtrair.mockReturnValue(26);
+    funcsubtrair.mockReturnValueOnce(26);
     expect(funcsubtrair(23, 3)).toBe(26);
     expect(funcsubtrair).toBeCalled();    
     expect(funcsubtrair).toBeCalledTimes(2);
