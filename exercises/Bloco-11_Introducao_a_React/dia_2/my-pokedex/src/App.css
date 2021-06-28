@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'fontepokemon';
+  src: url('./Pokemon\ Solid.ttf');
+}
+
+body {
+  background-color: rgb(233, 150, 118);
+  margin: 0;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+#pokedex {
+  display: flex;
+  margin: 10% 10%;
+  flex-wrap: wrap;
+}
+
+#pokemon {
+  margin: 8px;
+  border: 3px double rgb(107, 35, 9);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  flex: auto;
+  min-width: 25%;
+  max-width: 30%;
+  justify-content: space-around;
+  background-color: rgba(222, 231, 231, 0.411);
+}
+
+#titulo {
+  text-align: center;
+  margin: 5%;
+  font-family: fontepokemon;
+  font-size: 50px;
+  -webkit-text-stroke-width: 4px;
+  -webkit-text-stroke-color: rgb(22, 89, 233);
+  color: yellow;
+}
