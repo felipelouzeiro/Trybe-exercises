@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+}
+
+.form {
+  width: 70%;
+  height: auto;
+  margin: auto auto;
+  background-color: rgba(141, 130, 216, 0.35);
+  border: 3px solid slateblue;
+}
+
+.title {
+  background-color: rgba(163, 155, 219, 0.193);
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 28px;
+  color: slateblue;
+}
+
+.legend {
+  text-align: left;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 18px;
+  color: rgb(64, 54, 126);
+  margin-left: 5px;
+}
+
+.margin {
+  margin: 5px 5px;
+}
