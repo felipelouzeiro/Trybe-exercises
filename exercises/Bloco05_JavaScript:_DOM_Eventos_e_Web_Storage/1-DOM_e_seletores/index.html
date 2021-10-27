@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício 5.1</title>
+
+    <style>
+      div {
+        border-color: black;
+        border-style: solid;
+      }
+      .title {
+        text-align: center;
+      }
+
+      .main-content {
+        background-color: yellow;
+      }
+
+      .main-content .center-content {
+        background-color: red;
+        width: 50%;
+        margin: 0 auto;
+      }
+
+      .main-content .center-content p {
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="title">Exercício 5.1 - JavaEscripito </h1>
+    <div class="main-content">
+      <div class="center-content">
+        <p>Texto padrão do nosso site</p>
+        <p>-----</p>
+        <p>Trybe</p>
+      </div>
+    </div>
+    <script>
+      function textoP(element, text){
+        document.getElementsByTagName(element)[1].innerText = text;
+      }
+      textoP("p", "Me vejo feliz e satisfeito");
+
+
+      function contentCor(){
+        let contentYellow = document.getElementsByClassName("main-content")[0];
+        contentYellow.style.background = "rgb(78, 124, 20)"
+      };
+      contentCor();
+
+      function contentCorB(){
+        let contentRed = document.getElementsByClassName("center-content")[0];
+        contentRed.style.background = "rgb(255 255 255)";
+      };
+      contentCorB();      
+
+      function corrigeText(){
+        document.getElementsByClassName("title")[0].innerText = "Exercício 5.1 - JavaScript"
+      }
+      corrigeText();
+
+      function textUp(){
+        let textUp = document.getElementsByTagName("p")[0];
+        textUp.innerText = textUp.innerText.toUpperCase();
+      };
+      textUp();
+
+      let hideTagP = document.getElementsByTagName("p");
+      function hideTag(){
+        console.log(hideTagP);
+      };
+      hideTag();
+    </script>
+  </body>
+</html>
